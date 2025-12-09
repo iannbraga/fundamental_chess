@@ -1,0 +1,338 @@
+/* Estilos para o Sumário do Livro */
+
+#TOC {
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #fdfdf8;
+    border: 1px solid #d4c5a9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Remove estilos padrão das listas */
+#TOC ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Espaçamento entre itens */
+#TOC li {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Indentação para níveis aninhados */
+#TOC ul ul {
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#TOC ul ul ul {
+    padding-left: 2rem;
+}
+
+#TOC ul ul ul ul {
+    padding-left: 2.5rem;
+}
+
+/* Estilo dos links */
+#TOC a {
+    color: #2c1810;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    display: inline-block;
+}
+
+#TOC a:hover {
+    color: #8b4513;
+    transform: translateX(4px);
+}
+
+/* PART I - Nível principal */
+#TOC>ul>li>a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #1a0f08;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* CHAPTER - Segundo nível */
+#TOC>ul>li>ul>li>a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #3d2817;
+    margin-top: 1rem;
+    display: block;
+}
+
+/* Títulos das seções - Terceiro nível */
+#TOC>ul>li>ul>li>ul>li>a {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4a3528;
+}
+
+/* Subtítulos numerados - Quarto nível */
+#TOC>ul>li>ul>li>ul>li>ul>li>a {
+    font-size: 0.95rem;
+    color: #5d4a3d;
+    font-weight: normal;
+}
+
+/* Adiciona números aos capítulos principais */
+#TOC>ul>li>ul>li>ul>li>ul>li {
+    position: relative;
+}
+
+/* Efeito de destaque ao passar o mouse */
+#TOC li:hover>a {
+    color: #a0522d;
+}
+
+/* Separadores visuais para capítulos */
+#TOC>ul>li>ul>li {
+    border-bottom: 1px solid #e8dcc8;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+#TOC>ul>li>ul>li:last-child {
+    border-bottom: none;
+}
+
+/* Estilo para dispositivos móveis */
+@media (max-width: 768px) {
+    #TOC {
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    #TOC>ul>li>a {
+        font-size: 1.2rem;
+    }
+
+    #TOC>ul>li>ul>li>a {
+        font-size: 1rem;
+    }
+
+    #TOC ul ul {
+        padding-left: 1rem;
+    }
+}
+
+/* Estilos para o Conteúdo do Livro de Xadrez */
+
+/* Container principal */
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    line-height: 1.8;
+    color: #2c2416;
+    background: #f5f1e8;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 0;
+}
+
+/* Container do conteúdo */
+.content-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+    background: #ffffff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #1a0f08;
+    text-align: center;
+    margin: 3rem 0 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 3px double #8b4513;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3d2817;
+    text-align: center;
+    margin: 2.5rem 0 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #d4c5a9;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #4a3528;
+    text-align: center;
+    margin: 2rem 0 1rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #5d4a3d;
+    margin: 1.5rem 0 1rem;
+    letter-spacing: 1px;
+}
+
+/* Parágrafos */
+p {
+    margin: 1rem 0;
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+/* Primeiro parágrafo após título não tem indentação */
+h1+p,
+h2+p,
+h3+p,
+h4+p {
+    text-indent: 0;
+}
+
+/* Texto em negrito (notação de xadrez) */
+strong {
+    color: #1a0f08;
+    font-weight: 600;
+    font-family: 'Courier New', monospace;
+    font-size: 0.95em;
+    letter-spacing: 0.5px;
+}
+
+/* Figuras e imagens */
+figure {
+    margin: 2rem auto;
+    text-align: center;
+    padding: 1.5rem;
+    /* background: #fdfdf8;
+    border: 1px solid #d4c5a9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
+}
+
+figure img {
+    max-width: 15em;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #8b4513;
+}
+
+figcaption {
+    margin-top: 1rem;
+    font-style: italic;
+    color: #5d4a3d;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+/* Linha horizontal */
+hr {
+    border: none;
+    border-top: 2px solid #d4c5a9;
+    margin: 3rem 0;
+    position: relative;
+}
+
+hr::after {
+    content: '♔';
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffffff;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    color: #8b4513;
+}
+
+/* Destaques para exemplos */
+p strong:first-child {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para notação de xadrez em blocos */
+p:has(strong:only-child) {
+    text-indent: 0;
+    padding-left: 2rem;
+}
+
+/* Links (caso existam) */
+a {
+    color: #8b4513;
+    text-decoration: none;
+    border-bottom: 1px dotted #8b4513;
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    color: #a0522d;
+    border-bottom-style: solid;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .content-wrapper {
+        padding: 2rem 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        text-align: left;
+        text-indent: 0;
+    }
+
+    figure {
+        padding: 1rem;
+    }
+}
+
+/* Melhorias de impressão */
+@media print {
+    body {
+        background: white;
+    }
+
+    .content-wrapper {
+        box-shadow: none;
+        max-width: 100%;
+    }
+
+    h1,
+    h2 {
+        page-break-after: avoid;
+    }
+
+    figure {
+        page-break-inside: avoid;
+    }
+}
