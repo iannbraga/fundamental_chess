@@ -1,0 +1,17 @@
+#### 31. SOME SALIENT POINTS ABOUT PAWNS
+
+Before going back to the discussion of openings and middle-game positions, it might be well to bear in mind a few facts concerning Pawn positions which will no doubt help to understand certain moves, and sometimes even the object of certain variations in the openings, and of some manœuvres in the middle-games.
+
+![Example 63](img/exemplo_63.png)
+
+**Example 63.**—In the position of the diagram we have an exceedingly bad Pawn formation on Black's side. Black's Q B P is altogether backward, and White could by means of the open file concentrate {144}his forces against that weak point. There is also the square at White's Q B 5, which is controlled by White, and from where a White piece once established could not be dislodged. In order to get rid of it, Black would have to exchange it, which is not always an easy matter, and often when possible not at all convenient. The same holds true with regard to Black's K P, K B P and K Kt P, which create what is called a "hole" at Black's K B 3. Such Pawn formations invariably lead to disaster, and consequently must be avoided.
+
+![Example 64](img/exemplo_64.png)
+
+Example 64.—In this position we might say that the White centre Pawns have the attacking position, while the Black centre Pawns have the defensive position. Such a formation of Pawn occurs in the French Defence. In such positions White most often attempts, by means of P-KB 4 and K B 5, to obtain a crushing attack against Black's King, which is generally Castled on the King's side. To prevent that, {145}and also to assume the initiative or obtain material advantage, Black makes a counter-demonstration by P-QB 4, followed by PxP (when White defends the Pawn by P-QB 3), and the concentrating of Black's pieces against the White Pawn at Q 4. This in substance might be said to be a determined attack against White's centre in order to paralyse the direct attack of White against Black's King. It must be remembered that at the beginning of the book it was stated that control of the centre was an essential condition to a successful attack against the King.
+
+In an abstract way we may say that two or more Pawns are strongest when they are in the same rank next to one another. Thus the centre Pawns are strongest in themselves, so to speak, when placed at K 4 and Q 4 respectively, hence the question of advancing either the one or the other to the fifth rank is one that must be most carefully considered. The advance of either Pawn often determines the course the game will follow.
+
+Another thing to be considered is the matter of one or more passed Pawns when they are isolated either singly or in pairs. We might say that a passed Pawn is either very weak or very strong, and that its weakness or strength, whichever happens to be in the case to be considered, increases as it advances, and is at the same time in direct relation to the number of pieces on the board. In this last respect it might be generally said that a passed Pawn increases in strength as the number of pieces on the board diminishes.{146}
+
+Having all this clear in mind we will now revert to the openings and middle-game. We will analyse games carefully from beginning to end according to general principles. I shall, whenever possible, use my own games, not because they will better illustrate the point, but because, knowing them thoroughly, I shall be able to explain them more authoritatively than the games of others.
